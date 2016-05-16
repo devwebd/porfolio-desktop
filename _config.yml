@@ -1,0 +1,32 @@
+# Site settings
+title: Artist Theme
+email: artist@email
+description: "Thinker // Designer // YouTuber"
+
+
+# Change the site default images and content here!  
+logo: logo.svg
+bg-img: hero-bg.jpg
+
+
+avatar: devicon.jpg
+blurb: <p><strong>Lorem ipsum dolor sit amet, et tincidunt volutpat nunc magna nullam, eros suspendisse nibh neque sodales mattis ipsum, est platea netus</strong>. Volutpat neque ut leo augue quis a, non hac in convallis lacus arcu, volutpat <a href="http://travisneilson.com">suspendisse integer</a>, penatibus sem, velit ac sed ultrices interdum. A at, nostra ac duis mattis elementum sed. </p>
+
+
+
+
+
+
+# Build settings
+
+markdown: kramdown
+permalink: pretty
+
+port: 8000
+
+include: ['_includes/work']
+exclude: ['the_design.psd']
+
+sass:
+  sass_dir: assets/css
+  style: :nested
